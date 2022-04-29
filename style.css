@@ -1,31 +1,17 @@
-.nav-main {
-display: flex;
-flex-direction:row;
-justify-content:space-between;
-align-items: center;
+body{
+    background-image: url('/img/photo.jpg');
+    background-size: cover;
+    }
 
+/* .nav{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+} */
+.nav-main{
+display: flex;
+flex-direction: row;
+justify-content:space-between ;
+align-items: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(2, 210, 103);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(33, 53, 114);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgb(157, 32, 128);
-  }
